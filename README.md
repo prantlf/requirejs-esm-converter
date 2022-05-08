@@ -60,12 +60,13 @@ as AMD modules and if the dry-run mode is not enabled.
 
     convert(source: string): { code: string, warnings: string[] }
 
-The function `convert` converts the `source` in AMD to `code` in ESM, optionally returning `warnings`. If the conversion is not possible because the inputr was not an [AMD] module, it will throw `ConvertError`. If the syntax of the source file is invalid, it will throw `SyntaxError`.
+The function `convert` converts the `source` in AMD to `code` in ESM, optionally returning `warnings`. If the conversion is impossible because the input is not an [AMD] module, it will throw `ConvertError`. If the source file cannot be parsed, it will throw `SyntaxError`.
 
 ```js
 import { convert } from 'requirejs-to-esm'
 
 const input =`define(["test"], function (test) {
+  "use strict";
   console.log('imported:', test);
   return 42; // ultimate answer
 });`
@@ -75,6 +76,7 @@ console.log(code)
 // Result:
 //
 // import test from "test";
+//
 // console.log('imported:', test);
 // export default 42; // ultimate answer
 ```
