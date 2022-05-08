@@ -7,7 +7,7 @@
 
 Converts source [RequireJS] modules from [AMD] to [ESM] format.
 
-If you enabled usage of [ESM] modules in your [RequireJS] project (using [requirejs-babel7], [requirejs-esm] or [requirejs-esm-preprocessor], fopr example), you might want to convert all your code base to the [ESM] format to follow the same consistent coding standard and use the same set of tools to build, test and analyse your sources.
+If you enabled usage of [ESM] modules in your [RequireJS] project (using [requirejs-babel7], [requirejs-esm] or [requirejs-esm-preprocessor], for example), you might want to convert all your code base to the [ESM] format to follow the same consistent coding standard and use the same set of tools to build, test and analyse your sources.
 
 ## Synopsis
 
@@ -36,16 +36,16 @@ yarn add --global requirejs-esm-converter
 
     requirejs-to-esm [option...] [<pattern> ...]
 
+You can use BASH patterns for including and excluding files (only files).
+Patterns are case-sensitive and have to use slashes as directory separators.
+A pattern to exclude from processing starts with "!".
+
 ### Options
 
     -d|--[no-]dry-run  only log results, no writing to files
     -p|--[no-]print    write to stdout instead of overwriting files
     -V|--version       print version number
     -h|--help          print usage instructions
-
-You can use BASH patterns for including and excluding files (only files).
-Patterns are case-sensitive and have to use slashes as directory separators.
-A pattern to exclude from processing starts with "!".
 
 Files will overwritten with the converted output, if they are recognised
 as AMD modules and if the dry-run mode is not enabled.
