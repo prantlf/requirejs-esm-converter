@@ -1,0 +1,86 @@
+{
+  "name": "requirejs-esm-converter",
+  "version": "1.0.0",
+  "description": "Converts source RequireJS modules from AMD to ESM format.",
+  "author": "Ferdinand Prantl <prantlf@gmail.com>",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/prantlf/requirejs-esm-converter/blob/master/LICENSE"
+    }
+  ],
+  "homepage": "https://github.com/prantlf/requirejs-esm-converter#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prantlf/requirejs-esm-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prantlf/requirejs-esm-converter/issues"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "type": "module",
+  "main": "lib/index.cjs",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "bin": {
+    "requirejs-to-esm": "bin/requirejs-to-esm.cjs"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "prepare": "denolint && rollup -c",
+    "build": "rollup -c",
+    "lint": "denolint",
+    "check": "node test",
+    "cover": "c8 node test && c8 --no-clean ./bin/requirejs-to-esm.js -h && c8 --no-clean ./bin/requirejs-to-esm.js -V && cat test/input/amd-object.js | c8 --no-clean ./bin/requirejs-to-esm.js && cat test/input/esm.js | c8 --no-clean ./bin/requirejs-to-esm.js && c8 --no-clean ./bin/requirejs-to-esm.js -d test/input/amd-main.js && c8 --no-clean ./bin/requirejs-to-esm.js -p test/input/esm.js && c8 --no-clean ./bin/requirejs-to-esm.js test/input/invalid.txt && c8 --no-clean ./bin/requirejs-to-esm.js -X || c8 --no-clean ./bin/requirejs-to-esm.js -D -P \"none/*.js\" || c8 report -r text -r lcov",
+    "test": "denolint && c8 node test && c8 --no-clean ./bin/requirejs-to-esm.js -h && c8 --no-clean ./bin/requirejs-to-esm.js -V && cat test/input/amd-object.js | c8 --no-clean ./bin/requirejs-to-esm.js && cat test/input/esm.js | c8 --no-clean ./bin/requirejs-to-esm.js && c8 --no-clean ./bin/requirejs-to-esm.js -d test/input/amd-main.js && c8 --no-clean ./bin/requirejs-to-esm.js -p test/input/esm.js && c8 --no-clean ./bin/requirejs-to-esm.js test/input/invalid.txt && c8 --no-clean ./bin/requirejs-to-esm.js -X || c8 --no-clean ./bin/requirejs-to-esm.js -D -P \"none/*.js\" || c8 report -r text -r lcov"
+  },
+  "c8": {
+    "reporter": []
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/github",
+        {
+          "failComment": false
+        }
+      ],
+      "@semantic-release/git"
+    ]
+  },
+  "dependencies": {
+    "fast-glob": "^3.2.11",
+    "meriyah": "^4.2.1",
+    "recast": "^0.21.1"
+  },
+  "devDependencies": {
+    "@node-rs/deno-lint": "^1.13.0",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "c8": "^7.11.2",
+    "rollup": "^2.72.0",
+    "tehanu": "^0.2.2",
+    "tehanu-repo-coco": "^0.0.2",
+    "tehanu-teru": "^0.2.2"
+  },
+  "keywords": [
+    "requirejs",
+    "converter",
+    "convert",
+    "amd",
+    "esm",
+    "es6"
+  ]
+}
