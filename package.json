@@ -26,7 +26,7 @@
   "module": "lib/index.js",
   "types": "lib/index.d.ts",
   "bin": {
-    "requirejs-to-esm": "bin/requirejs-to-esm.cjs"
+    "requirejs-to-esm": "bin/requirejs-to-esm.js"
   },
   "files": [
     "bin",
