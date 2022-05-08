@@ -2,5 +2,4 @@
 *.map
 coverage
 /lib/index.cjs
-main-built.js
 node_modules
