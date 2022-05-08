@@ -33,8 +33,7 @@
     "lib"
   ],
   "scripts": {
-    "prepare": "denolint && rollup -c",
-    "build": "rollup -c",
+    "prepare": "rollup -c",
     "lint": "denolint",
     "check": "node test",
     "cover": "c8 node test && c8 --no-clean ./bin/requirejs-to-esm.js -h && c8 --no-clean ./bin/requirejs-to-esm.js -V && cat test/input/amd-object.js | c8 --no-clean ./bin/requirejs-to-esm.js && cat test/input/esm.js | c8 --no-clean ./bin/requirejs-to-esm.js && c8 --no-clean ./bin/requirejs-to-esm.js -d test/input/amd-main.js && c8 --no-clean ./bin/requirejs-to-esm.js -p test/input/esm.js && c8 --no-clean ./bin/requirejs-to-esm.js test/input/invalid.txt && c8 --no-clean ./bin/requirejs-to-esm.js -X || c8 --no-clean ./bin/requirejs-to-esm.js -D -P \"none/*.js\" || c8 report -r text -r lcov",

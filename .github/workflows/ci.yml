@@ -22,7 +22,7 @@ jobs:
         run_install: |
           - args: [--frozen-lockfile, --no-verify-store-integrity, --no-optional]
     - name: Test
-      run: npm test
+      run: npm run cover
     - name: Coverage
       run: pnpx codecov --disable=gcov
     - name: Publish
