@@ -30,8 +30,8 @@ export default {};`
   },
   {
     title: 'converts module with one dependency and no import',
-    input: 'define(["test"], function () {})',
-    output: 'import "test";',
+    input: 'define([\'test\'], function () {})',
+    output: 'import \'test\';',
   },
   {
     title: 'converts module with one dependency and no export',
@@ -56,7 +56,7 @@ export default 42;`
   console.log();
 })
 `,
-    output: `import "a";
+    output: `import 'a';
 
 console.log();
 `
@@ -76,7 +76,7 @@ define([
 });
 `,
     output: `// prolog
-import test from "test"; // dependency
+import test from 'test'; // dependency
 
 // start
 console.log(test);
