@@ -1,6 +1,6 @@
 {
   "name": "requirejs-esm-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Converts source RequireJS modules from AMD to ESM format.",
   "author": "Ferdinand Prantl <prantlf@gmail.com>",
   "license": "MIT",
