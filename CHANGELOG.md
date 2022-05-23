@@ -1,3 +1,12 @@
+## [1.0.2](https://github.com/prantlf/requirejs-esm-converter/compare/v1.0.1...v1.0.2) (2022-05-09)
+
+
+### Bug Fixes
+
+* Preserve quotes in import source ([f904fbb](https://github.com/prantlf/requirejs-esm-converter/commit/f904fbb0ac4202ae78c1f4b839d20515ce3d1249))
+
+
+
 ## [1.0.1](https://github.com/prantlf/requirejs-esm-converter/compare/v1.0.0...v1.0.1) (2022-05-08)
 
 ### Bug Fixes
