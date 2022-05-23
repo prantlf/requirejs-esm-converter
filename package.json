@@ -35,10 +35,9 @@
   "scripts": {
     "prepare": "rollup -c",
     "lint": "denolint",
-    "check": "node test",
-    "cover": "c8 node test && c8 --no-clean ./bin/requirejs-to-esm.js -h && c8 --no-clean ./bin/requirejs-to-esm.js -V && cat test/input/amd-object.js | c8 --no-clean ./bin/requirejs-to-esm.js && cat test/input/esm.js | c8 --no-clean ./bin/requirejs-to-esm.js && c8 --no-clean ./bin/requirejs-to-esm.js -d test/input/amd-main.js && c8 --no-clean ./bin/requirejs-to-esm.js -p test/input/esm.js && c8 --no-clean ./bin/requirejs-to-esm.js test/input/invalid.txt && c8 --no-clean ./bin/requirejs-to-esm.js -X || c8 --no-clean ./bin/requirejs-to-esm.js -D -P \"none/*.js\" || c8 report -r text -r lcov",
-    "test": "denolint && c8 node test && c8 --no-clean ./bin/requirejs-to-esm.js -h && c8 --no-clean ./bin/requirejs-to-esm.js -V && cat test/input/amd-object.js | c8 --no-clean ./bin/requirejs-to-esm.js && cat test/input/esm.js | c8 --no-clean ./bin/requirejs-to-esm.js && c8 --no-clean ./bin/requirejs-to-esm.js -d test/input/amd-main.js && c8 --no-clean ./bin/requirejs-to-esm.js -p test/input/esm.js && c8 --no-clean ./bin/requirejs-to-esm.js test/input/invalid.txt && c8 --no-clean ./bin/requirejs-to-esm.js -X || c8 --no-clean ./bin/requirejs-to-esm.js -D -P \"none/*.js\" || c8 report -r text -r lcov",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "check": "teru-esm test/index.js",
+    "cover": "c8 teru-esm test/index.js && c8 --no-clean ./bin/requirejs-to-esm.js -h && c8 --no-clean ./bin/requirejs-to-esm.js -V && cat test/input/amd-object.js | c8 --no-clean ./bin/requirejs-to-esm.js && cat test/input/esm.js | c8 --no-clean ./bin/requirejs-to-esm.js && c8 --no-clean ./bin/requirejs-to-esm.js -d test/input/amd-main.js && c8 --no-clean ./bin/requirejs-to-esm.js -p test/input/esm.js && c8 --no-clean ./bin/requirejs-to-esm.js test/input/invalid.txt && c8 --no-clean ./bin/requirejs-to-esm.js -X || c8 --no-clean ./bin/requirejs-to-esm.js -D -P \"none/*.js\" || c8 report -r text -r lcov",
+    "test": "denolint && c8 teru-esm test/index.js && c8 --no-clean ./bin/requirejs-to-esm.js -h && c8 --no-clean ./bin/requirejs-to-esm.js -V && cat test/input/amd-object.js | c8 --no-clean ./bin/requirejs-to-esm.js && cat test/input/esm.js | c8 --no-clean ./bin/requirejs-to-esm.js && c8 --no-clean ./bin/requirejs-to-esm.js -d test/input/amd-main.js && c8 --no-clean ./bin/requirejs-to-esm.js -p test/input/esm.js && c8 --no-clean ./bin/requirejs-to-esm.js test/input/invalid.txt && c8 --no-clean ./bin/requirejs-to-esm.js -X || c8 --no-clean ./bin/requirejs-to-esm.js -D -P \"none/*.js\" || c8 report -r text -r lcov"
   },
   "c8": {
     "reporter": []
@@ -64,16 +63,16 @@
     "recast": "^0.21.1"
   },
   "devDependencies": {
-    "@node-rs/deno-lint": "^1.13.0",
+    "@node-rs/deno-lint": "^1.13.1",
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "c8": "^7.11.2",
-    "rollup": "^2.72.0",
-    "tehanu": "^0.2.2",
-    "tehanu-repo-coco": "^0.0.2",
-    "tehanu-teru": "^0.2.2"
+    "c8": "^7.11.3",
+    "rollup": "^2.74.1",
+    "tehanu": "^1.0.0",
+    "tehanu-repo-coco": "^1.0.0",
+    "tehanu-teru": "^1.0.0"
   },
   "keywords": [
     "requirejs",

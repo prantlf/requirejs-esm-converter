@@ -1,19 +1,19 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@node-rs/deno-lint': ^1.13.0
+  '@node-rs/deno-lint': ^1.13.1
   '@rollup/plugin-commonjs': ^22.0.0
   '@rollup/plugin-node-resolve': ^13.3.0
   '@semantic-release/changelog': ^6.0.1
   '@semantic-release/git': ^10.0.1
-  c8: ^7.11.2
+  c8: ^7.11.3
   fast-glob: ^3.2.11
   meriyah: ^4.2.1
   recast: ^0.21.1
-  rollup: ^2.72.0
-  tehanu: ^0.2.2
-  tehanu-repo-coco: ^0.0.2
-  tehanu-teru: ^0.2.2
+  rollup: ^2.74.1
+  tehanu: ^1.0.0
+  tehanu-repo-coco: ^1.0.0
+  tehanu-teru: ^1.0.0
 
 dependencies:
   fast-glob: 3.2.11
@@ -21,16 +21,16 @@ dependencies:
   recast: 0.21.1
 
 devDependencies:
-  '@node-rs/deno-lint': 1.13.0
-  '@rollup/plugin-commonjs': 22.0.0_rollup@2.72.0
-  '@rollup/plugin-node-resolve': 13.3.0_rollup@2.72.0
+  '@node-rs/deno-lint': 1.13.1
+  '@rollup/plugin-commonjs': 22.0.0_rollup@2.74.1
+  '@rollup/plugin-node-resolve': 13.3.0_rollup@2.74.1
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/git': 10.0.1
-  c8: 7.11.2
-  rollup: 2.72.0
-  tehanu: 0.2.2
-  tehanu-repo-coco: 0.0.2
-  tehanu-teru: 0.2.2_tehanu@0.2.2
+  c8: 7.11.3
+  rollup: 2.74.1
+  tehanu: 1.0.0
+  tehanu-repo-coco: 1.0.0
+  tehanu-teru: 1.0.0_tehanu@1.0.0
 
 packages:
 
@@ -59,8 +59,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.13
     dev: true
 
-  /@node-rs/deno-lint-android-arm-eabi/1.13.0:
-    resolution: {integrity: sha512-PwT7Nq3pMQYz2+O3Q2bWe/0pPtbZH8vSLKYH0wDGzpWacNsyXMXpzCjL3oF+mO8axZeOzs9MhQQN1lj856XzVw==}
+  /@node-rs/deno-lint-android-arm-eabi/1.13.1:
+    resolution: {integrity: sha512-IV0tdrx+y8QZCVAY2oUY5rlLzHZ2939Q6BhjB8r6EPIAmlSRGZjIwkWvSX4JqXpJgUy4FEndESvvg6IjIhPaMw==}
     engines: {node: '>= 10'}
     cpu: [arm]
     os: [android]
@@ -68,8 +68,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-android-arm64/1.13.0:
-    resolution: {integrity: sha512-K3XW7BkXigR5R4IaKa0PQNXpKHBthFRPPzJ12UN4fRbVpxpiYnRl3s1c/elcQ8OWFcP3zf4k6ptCAR/Ov9bpQQ==}
+  /@node-rs/deno-lint-android-arm64/1.13.1:
+    resolution: {integrity: sha512-B2rFeBVMaKFHoIAiJx+NveT677dbApZf3YG9ca3mMjw0y1X2f5T4GSYAqVVJtffJaXvAFLAV3jOYW56e7QV6Iw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [android]
@@ -77,8 +77,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-darwin-arm64/1.13.0:
-    resolution: {integrity: sha512-y1bGe+3ezHKUuyQ/6LbK7vxtzKfqrdves28nMWNEcFGlSBJ9vocvE0HLrC2ZdXhbUVf+50I7D9Q4XKavFV/7CA==}
+  /@node-rs/deno-lint-darwin-arm64/1.13.1:
+    resolution: {integrity: sha512-/LaizMfSjXYhT4EkEMsN8ZvknARjIJqjVaSsBztfZI97ASE6sTPoJgmJquc0GuO4bECyfX7P2MLTtn7cfFip+w==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
@@ -86,8 +86,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-darwin-x64/1.13.0:
-    resolution: {integrity: sha512-AGQjVZKGVUf7qsadv/BuzR1UmxKVF61tJat5/um+AFlQjOF68qd/nkb4SU4yak33vhy5OGgAOK7f1r2OOhcmGA==}
+  /@node-rs/deno-lint-darwin-x64/1.13.1:
+    resolution: {integrity: sha512-j5LEXhDAzlQRjp+1Aa60ks7uwRIVOnqNlkdlu47a+DAjRaRwts6ywI8lzk6DdJO119GCo0HVT3UpZzF3TZZ/YQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
@@ -95,8 +95,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-freebsd-x64/1.13.0:
-    resolution: {integrity: sha512-QdZMWVoQ2M0XjdkE7F1DTgDo1Puf+pgBcNVDEfEnRfDeyEz7TVpH5/v/eJacAVS9xcl3hq2GgzZ2dMZ6GqZOKg==}
+  /@node-rs/deno-lint-freebsd-x64/1.13.1:
+    resolution: {integrity: sha512-wQIqMcwYBv8io+nuQ4AZ8KialltCDc1O4cy3fSdvf8KwKCtGQ0D+WG5+nooyHxqzy5m/JwqUqJO2vRJWqdAH4w==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [freebsd]
@@ -104,8 +104,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-linux-arm-gnueabihf/1.13.0:
-    resolution: {integrity: sha512-pS55HSE4V18EkAMRWImXwGxXZfZR/amZME2/8/PiPMNtz5YP0nFCaFh7+oEgq/pfzZbauiIjNedsumdJFjfliA==}
+  /@node-rs/deno-lint-linux-arm-gnueabihf/1.13.1:
+    resolution: {integrity: sha512-WO+0X3jD1Nn99rH6mGDZ/vk/0kaotckF37j/IIAjT4AsWdLDAPihIfOMkTAiWSTvxkvPBs2hfc3YMQBGFP/sEw==}
     engines: {node: '>= 10'}
     cpu: [arm]
     os: [linux]
@@ -113,8 +113,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-linux-arm64-gnu/1.13.0:
-    resolution: {integrity: sha512-/QTuF8U/mRLMi3lTFWnQgz14IhV0HFGoZCZA4rFFXUNkhZCViSLu7/t9lG5in5jIrtFS+i16ykw1isLdomiBJw==}
+  /@node-rs/deno-lint-linux-arm64-gnu/1.13.1:
+    resolution: {integrity: sha512-/yjeKMtwAXV24Ahs2Jv5nG+GpX2gPdKHLgzPsrVuPOZvqlgCzxs04BY82QL49DHvnIcrv1W4B+StDSTapuCZ2w==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -122,8 +122,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-linux-arm64-musl/1.13.0:
-    resolution: {integrity: sha512-676dgUo3CcGat71gFn8vk17ao/xXS3lLb6NIVR0hfEXi4WRxOABzhNsIK4hbCJo2cgaHz6Tsxkd6vI37vzjePg==}
+  /@node-rs/deno-lint-linux-arm64-musl/1.13.1:
+    resolution: {integrity: sha512-kqNMlErnMaUom3IyU1pYDE/qNbU9TZXKJ9qFcCxbHdIDTieK1Wqy4yc4QpMLQFXE9XRUFOli22PEnDO7IsJezg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -131,8 +131,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-linux-x64-gnu/1.13.0:
-    resolution: {integrity: sha512-VAvem7TK5FhBoDuY/iMrDf2SeRgFslJK8IqKKNRUzM7mLdusTQLPXK8Sq5m6H9ac9Kx/T2yCqdue1av1B1s1Hg==}
+  /@node-rs/deno-lint-linux-x64-gnu/1.13.1:
+    resolution: {integrity: sha512-hH7+z9AWauTUpNk7ando8EWNLd7SYROGIbWW5ho8aFapRR715HV1EwnIJZuaBn8xsWBKmP1Jg/+Q8KMAXGCi4g==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -140,8 +140,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-linux-x64-musl/1.13.0:
-    resolution: {integrity: sha512-bfuILbIa6BVaBIoPU/wNZErfkP4WCNfHrON+QKKeRVggKllC6XrB23zqJe1KXhIny2dm8Cx3TZnsJj/CGnfzGQ==}
+  /@node-rs/deno-lint-linux-x64-musl/1.13.1:
+    resolution: {integrity: sha512-s9RUNuXLT2itPTqU5b9pAp7Lg8KoEdAJ4yzDekGo8AK9mb/rLs7q30af7Qi5AdzWOq5VsXYjkghZH8HbwhnHEQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -149,8 +149,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-win32-arm64-msvc/1.13.0:
-    resolution: {integrity: sha512-eAKt40IBuQ+6ISOGUhqcfJHciHABOOUGoGby0D3RLZrUZracCSNZ4yX1hZhYL4T2P+kXx9s+1M74Gu/X8SyHYQ==}
+  /@node-rs/deno-lint-win32-arm64-msvc/1.13.1:
+    resolution: {integrity: sha512-T5Xd/Q86xN9hS1zLgruxtkb9jsGHdYRN1qHG6ltYcLZPAAUP3tTjbsZhLSaGVSOmOGZt5wmmBOPSHzb2hxnXPw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
@@ -158,8 +158,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-win32-ia32-msvc/1.13.0:
-    resolution: {integrity: sha512-JdT8/pJfiwlhkjhPF10iezX947ASF4TB6J7J1NOCLY60Sp42de/HudFX85mf8Ao2tnO1lca/lwIKbDclgkA03g==}
+  /@node-rs/deno-lint-win32-ia32-msvc/1.13.1:
+    resolution: {integrity: sha512-rDCx8QBaEpEznu3x/dW4SskBSaTCaGSgR4K+YJXIihxDXWeMtyyt/ek+wB2zezIVVfaSxBkLkSBJIEdZqped7Q==}
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
@@ -167,8 +167,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-win32-x64-msvc/1.13.0:
-    resolution: {integrity: sha512-KAOfS7Lb0TuZsT2u1FWVLFJzzgRD72XSWxse48Y2V9LoH1i2V9FOpOWFdg7u3rIvTFm+5WnUaa/2VzmY/9fMSg==}
+  /@node-rs/deno-lint-win32-x64-msvc/1.13.1:
+    resolution: {integrity: sha512-EL5D4MGFYUjAz107fuD1OjsSjWKMvYkMB8PDmI5YbuoIyDGcq9lwCXkQbpN+T16EBHaWHlCnVPJE6YAwqJg1Vw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -176,27 +176,27 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint/1.13.0:
-    resolution: {integrity: sha512-+nhrzVSbVZZqj4QlWwd5k13xp6Tu+169GSLdX8jLwXz7zldIiz5bLjBFDbB5CYs4mCffdThzrJxqd3sEubtY3A==}
+  /@node-rs/deno-lint/1.13.1:
+    resolution: {integrity: sha512-0fQ5+kAjK1QFX7iXjhLe0Sk+M2ES58q0Z1OxmDer8sF4o3m9RSP7oN1Qc9zcRkPm1DQO0z06Wr/10w7rHUQMnw==}
     engines: {node: '>= 10'}
     hasBin: true
     dependencies:
       clipanion: 3.1.0
       typanion: 3.8.0
     optionalDependencies:
-      '@node-rs/deno-lint-android-arm-eabi': 1.13.0
-      '@node-rs/deno-lint-android-arm64': 1.13.0
-      '@node-rs/deno-lint-darwin-arm64': 1.13.0
-      '@node-rs/deno-lint-darwin-x64': 1.13.0
-      '@node-rs/deno-lint-freebsd-x64': 1.13.0
-      '@node-rs/deno-lint-linux-arm-gnueabihf': 1.13.0
-      '@node-rs/deno-lint-linux-arm64-gnu': 1.13.0
-      '@node-rs/deno-lint-linux-arm64-musl': 1.13.0
-      '@node-rs/deno-lint-linux-x64-gnu': 1.13.0
-      '@node-rs/deno-lint-linux-x64-musl': 1.13.0
-      '@node-rs/deno-lint-win32-arm64-msvc': 1.13.0
-      '@node-rs/deno-lint-win32-ia32-msvc': 1.13.0
-      '@node-rs/deno-lint-win32-x64-msvc': 1.13.0
+      '@node-rs/deno-lint-android-arm-eabi': 1.13.1
+      '@node-rs/deno-lint-android-arm64': 1.13.1
+      '@node-rs/deno-lint-darwin-arm64': 1.13.1
+      '@node-rs/deno-lint-darwin-x64': 1.13.1
+      '@node-rs/deno-lint-freebsd-x64': 1.13.1
+      '@node-rs/deno-lint-linux-arm-gnueabihf': 1.13.1
+      '@node-rs/deno-lint-linux-arm64-gnu': 1.13.1
+      '@node-rs/deno-lint-linux-arm64-musl': 1.13.1
+      '@node-rs/deno-lint-linux-x64-gnu': 1.13.1
+      '@node-rs/deno-lint-linux-x64-musl': 1.13.1
+      '@node-rs/deno-lint-win32-arm64-msvc': 1.13.1
+      '@node-rs/deno-lint-win32-ia32-msvc': 1.13.1
+      '@node-rs/deno-lint-win32-x64-msvc': 1.13.1
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
@@ -220,38 +220,38 @@ packages:
       fastq: 1.13.0
     dev: false
 
-  /@rollup/plugin-commonjs/22.0.0_rollup@2.72.0:
+  /@rollup/plugin-commonjs/22.0.0_rollup@2.74.1:
     resolution: {integrity: sha512-Ktvf2j+bAO+30awhbYoCaXpBcyPmJbaEUYClQns/+6SNCYFURbvBiNbWgHITEsIgDDWCDUclWRKEuf8cwZCFoQ==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
       rollup: ^2.68.0
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.72.0
+      '@rollup/pluginutils': 3.1.0_rollup@2.74.1
       commondir: 1.0.1
       estree-walker: 2.0.2
       glob: 7.2.0
       is-reference: 1.2.1
       magic-string: 0.25.9
       resolve: 1.22.0
-      rollup: 2.72.0
+      rollup: 2.74.1
     dev: true
 
-  /@rollup/plugin-node-resolve/13.3.0_rollup@2.72.0:
+  /@rollup/plugin-node-resolve/13.3.0_rollup@2.74.1:
     resolution: {integrity: sha512-Lus8rbUo1eEcnS4yTFKLZrVumLPY+YayBdWXgFSHYhTT2iJbMhoaaBL3xl5NCdeRytErGr8tZ0L71BMRmnlwSw==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
       rollup: ^2.42.0
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.72.0
+      '@rollup/pluginutils': 3.1.0_rollup@2.74.1
       '@types/resolve': 1.17.1
       deepmerge: 4.2.2
       is-builtin-module: 3.1.0
       is-module: 1.0.0
       resolve: 1.22.0
-      rollup: 2.72.0
+      rollup: 2.74.1
     dev: true
 
-  /@rollup/pluginutils/3.1.0_rollup@2.72.0:
+  /@rollup/pluginutils/3.1.0_rollup@2.74.1:
     resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -260,7 +260,7 @@ packages:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.3.1
-      rollup: 2.72.0
+      rollup: 2.74.1
     dev: true
 
   /@semantic-release/changelog/6.0.1:
@@ -370,8 +370,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /c8/7.11.2:
-    resolution: {integrity: sha512-6ahJSrhS6TqSghHm+HnWt/8Y2+z0hM/FQyB1ybKhAR30+NYL9CTQ1uwHxuWw6U7BHlHv6wvhgOrH81I+lfCkxg==}
+  /c8/7.11.3:
+    resolution: {integrity: sha512-6YBmsaNmqRm9OS3ZbIiL2EZgi1+Xc4O24jL3vMYGE6idixYuGdy76rIfIdltSKDj9DpLNrcXSonUTR1miBD0wA==}
     engines: {node: '>=10.12.0'}
     hasBin: true
     dependencies:
@@ -896,8 +896,8 @@ packages:
       glob: 7.2.0
     dev: true
 
-  /rollup/2.72.0:
-    resolution: {integrity: sha512-KqtR2YcO35/KKijg4nx4STO3569aqCUeGRkKWnJ6r+AvBBrVY9L4pmf4NHVrQr4mTOq6msbohflxr2kpihhaOA==}
+  /rollup/2.74.1:
+    resolution: {integrity: sha512-K2zW7kV8Voua5eGkbnBtWYfMIhYhT9Pel2uhBk2WO5eMee161nPze/XRfvEQPFYz7KgrCCnmh2Wy0AMFLGGmMA==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -977,24 +977,24 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tehanu-repo-coco/0.0.2:
-    resolution: {integrity: sha512-99Y75UlW/pUGpXgSLiFQba2m6xXyVm9cUcMwki9XCjKA5//Lb44LGnSRijBWbzbIvMbgsFX3tyEV49wb3xlgNQ==}
-    engines: {node: '>=12'}
+  /tehanu-repo-coco/1.0.0:
+    resolution: {integrity: sha512-5EtlmoYStrYmj0ODjYP+jcbMwQCxYpxY9qtfbrtqfDcagHusZlhYNPz1hhh7ykxhIwy5p3Yp/+lO5ZWbhbHdIg==}
+    engines: {node: '>=14.13'}
     dev: true
 
-  /tehanu-teru/0.2.2_tehanu@0.2.2:
-    resolution: {integrity: sha512-N/yUuWjcT02+7PdMv6dw57UWTnxwPU89oHXbAZkHkIRcCywyWNBMi+b/ZZ9Fkh1sUegbsGqNt5Reoj7GgW4VQw==}
-    engines: {node: '>=12'}
+  /tehanu-teru/1.0.0_tehanu@1.0.0:
+    resolution: {integrity: sha512-GzUu9HxSzxnj1JHkwe1FZBMoVgsDoR2f+w+fDJSKSGzw5bW0zkOeTSreS1amqVaEC0ePPJlb/lbS8Qppo3yZxA==}
+    engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
-      tehanu: ^0.2.1
+      tehanu: ^1.0.0
     dependencies:
-      tehanu: 0.2.2
+      tehanu: 1.0.0
       tiny-glob: 0.2.9
     dev: true
 
-  /tehanu/0.2.2:
-    resolution: {integrity: sha512-N4TZWIWMQD9Y8ZPYtCTYyWJSKO/oPDSyr3ke8OwhB3NX+LDH67V7ICJ/g9DICrnRdR8UFuddCl2cqfTMZXrEkQ==}
+  /tehanu/1.0.0:
+    resolution: {integrity: sha512-yY4IagW5h2YHWEicVYdQT5dd7Cz9gWIkXhfWenEnDvbUb0/y9RJ4al4wYbV8FfaJ050jw9nj2GS89WrkgOn2Sw==}
     engines: {node: '>=12'}
     dev: true
 
