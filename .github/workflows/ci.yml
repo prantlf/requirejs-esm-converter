@@ -24,7 +24,7 @@ jobs:
     - name: Test
       run: npm run cover
     - name: Coverage
-      run: pnpx codecov --disable=gcov
+      uses: codecov/codecov-action@v2
     - name: Publish
       uses: cycjimmy/semantic-release-action@v2
       with:

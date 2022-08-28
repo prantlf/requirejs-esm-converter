@@ -1,36 +1,36 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@node-rs/deno-lint': ^1.13.1
-  '@rollup/plugin-commonjs': ^22.0.0
+  '@node-rs/deno-lint': ^1.14.0
+  '@rollup/plugin-commonjs': ^22.0.2
   '@rollup/plugin-node-resolve': ^13.3.0
   '@semantic-release/changelog': ^6.0.1
   '@semantic-release/git': ^10.0.1
-  c8: ^7.11.3
+  c8: ^7.12.0
   fast-glob: ^3.2.11
-  meriyah: ^4.2.1
-  recast: ^0.21.1
-  rollup: ^2.74.1
-  tehanu: ^1.0.0
+  meriyah: ^4.3.0
+  recast: ^0.21.2
+  rollup: ^2.78.1
+  tehanu: ^1.0.1
   tehanu-repo-coco: ^1.0.0
   tehanu-teru: ^1.0.0
 
 dependencies:
   fast-glob: 3.2.11
-  meriyah: 4.2.1
-  recast: 0.21.1
+  meriyah: 4.3.0
+  recast: 0.21.2
 
 devDependencies:
-  '@node-rs/deno-lint': 1.13.1
-  '@rollup/plugin-commonjs': 22.0.0_rollup@2.74.1
-  '@rollup/plugin-node-resolve': 13.3.0_rollup@2.74.1
+  '@node-rs/deno-lint': 1.14.0
+  '@rollup/plugin-commonjs': 22.0.2_rollup@2.78.1
+  '@rollup/plugin-node-resolve': 13.3.0_rollup@2.78.1
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/git': 10.0.1
-  c8: 7.11.3
-  rollup: 2.74.1
-  tehanu: 1.0.0
+  c8: 7.12.0
+  rollup: 2.78.1
+  tehanu: 1.0.1
   tehanu-repo-coco: 1.0.0
-  tehanu-teru: 1.0.0_tehanu@1.0.0
+  tehanu-teru: 1.0.0_tehanu@1.0.1
 
 packages:
 
@@ -59,8 +59,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.13
     dev: true
 
-  /@node-rs/deno-lint-android-arm-eabi/1.13.1:
-    resolution: {integrity: sha512-IV0tdrx+y8QZCVAY2oUY5rlLzHZ2939Q6BhjB8r6EPIAmlSRGZjIwkWvSX4JqXpJgUy4FEndESvvg6IjIhPaMw==}
+  /@node-rs/deno-lint-android-arm-eabi/1.14.0:
+    resolution: {integrity: sha512-1k12oBLJv3F88cNNOjbCu1J+gaX5Jvt8RyGxEq1Schl9jVt7wNe3DwwOh0VRWQ8ahBb/Jwu3dxIaxB84SR+MWg==}
     engines: {node: '>= 10'}
     cpu: [arm]
     os: [android]
@@ -68,8 +68,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-android-arm64/1.13.1:
-    resolution: {integrity: sha512-B2rFeBVMaKFHoIAiJx+NveT677dbApZf3YG9ca3mMjw0y1X2f5T4GSYAqVVJtffJaXvAFLAV3jOYW56e7QV6Iw==}
+  /@node-rs/deno-lint-android-arm64/1.14.0:
+    resolution: {integrity: sha512-4IpL6hnA7hJUJsmDMN2EZGUIRCVuNs8dcdoYXVP7AkRE85ES1BXe0+sLeUH4eo+m/rfTm0W1lBoQLAcN8l8eCw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [android]
@@ -77,8 +77,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-darwin-arm64/1.13.1:
-    resolution: {integrity: sha512-/LaizMfSjXYhT4EkEMsN8ZvknARjIJqjVaSsBztfZI97ASE6sTPoJgmJquc0GuO4bECyfX7P2MLTtn7cfFip+w==}
+  /@node-rs/deno-lint-darwin-arm64/1.14.0:
+    resolution: {integrity: sha512-GqjDfwPewtre5BWcrryvqTEOXabTcr1SnTSDTJVTUiucLqOKxG/rBW8faXl4qoB6t5rzWl0Nk20Pf/0sEsR1kg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
@@ -86,8 +86,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-darwin-x64/1.13.1:
-    resolution: {integrity: sha512-j5LEXhDAzlQRjp+1Aa60ks7uwRIVOnqNlkdlu47a+DAjRaRwts6ywI8lzk6DdJO119GCo0HVT3UpZzF3TZZ/YQ==}
+  /@node-rs/deno-lint-darwin-x64/1.14.0:
+    resolution: {integrity: sha512-p99f+iEQ2aebcEsCFSsTwWb8R85qPbYtnwU9tRpsZ9SK9PpSOD5x8oWgV6nnbZ4ac6mhLl+HC8zIyd/pZUYVVw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
@@ -95,8 +95,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-freebsd-x64/1.13.1:
-    resolution: {integrity: sha512-wQIqMcwYBv8io+nuQ4AZ8KialltCDc1O4cy3fSdvf8KwKCtGQ0D+WG5+nooyHxqzy5m/JwqUqJO2vRJWqdAH4w==}
+  /@node-rs/deno-lint-freebsd-x64/1.14.0:
+    resolution: {integrity: sha512-eK7vrkHFYpYU+pXHsc+yktA3tWc2GYSPlYCkQN6TYMofPZY6osdSNOx94DOzBA7nopt2jYDyltxq8ExpBSLO1Q==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [freebsd]
@@ -104,8 +104,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-linux-arm-gnueabihf/1.13.1:
-    resolution: {integrity: sha512-WO+0X3jD1Nn99rH6mGDZ/vk/0kaotckF37j/IIAjT4AsWdLDAPihIfOMkTAiWSTvxkvPBs2hfc3YMQBGFP/sEw==}
+  /@node-rs/deno-lint-linux-arm-gnueabihf/1.14.0:
+    resolution: {integrity: sha512-AwT5Y3dq8abcrrTOdTWcCwNdB0G7utE/my4zuXovbvya++6FUCi0TD6tzHrrvuvEm7pvkD38lfZb5DhQTqReZA==}
     engines: {node: '>= 10'}
     cpu: [arm]
     os: [linux]
@@ -113,8 +113,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-linux-arm64-gnu/1.13.1:
-    resolution: {integrity: sha512-/yjeKMtwAXV24Ahs2Jv5nG+GpX2gPdKHLgzPsrVuPOZvqlgCzxs04BY82QL49DHvnIcrv1W4B+StDSTapuCZ2w==}
+  /@node-rs/deno-lint-linux-arm64-gnu/1.14.0:
+    resolution: {integrity: sha512-4D2gJAAZo6FLyht423tt6dX9Ioh2hoUyLqyeQ95XJfaDAsBvuSivbsB7hd20Ti2W/s+Ngz2YoiYzdlPmwtXueg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -122,8 +122,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-linux-arm64-musl/1.13.1:
-    resolution: {integrity: sha512-kqNMlErnMaUom3IyU1pYDE/qNbU9TZXKJ9qFcCxbHdIDTieK1Wqy4yc4QpMLQFXE9XRUFOli22PEnDO7IsJezg==}
+  /@node-rs/deno-lint-linux-arm64-musl/1.14.0:
+    resolution: {integrity: sha512-r9Z2RAiqQBTpTwcdW9V6+vLuwvVdHnzPG2B7wdE3YdeivPASlKkZVk66mDuCajlYixEcZAGEf3xhvzs/D1c6Fg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -131,8 +131,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-linux-x64-gnu/1.13.1:
-    resolution: {integrity: sha512-hH7+z9AWauTUpNk7ando8EWNLd7SYROGIbWW5ho8aFapRR715HV1EwnIJZuaBn8xsWBKmP1Jg/+Q8KMAXGCi4g==}
+  /@node-rs/deno-lint-linux-x64-gnu/1.14.0:
+    resolution: {integrity: sha512-tAv/mfLmXpABqnWvOj58QrTmEm0odY+723+RDdISarqYKqhp3L9yYhRM4uw1IypudW0o17JGDxmBtvDuk4OReA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -140,8 +140,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-linux-x64-musl/1.13.1:
-    resolution: {integrity: sha512-s9RUNuXLT2itPTqU5b9pAp7Lg8KoEdAJ4yzDekGo8AK9mb/rLs7q30af7Qi5AdzWOq5VsXYjkghZH8HbwhnHEQ==}
+  /@node-rs/deno-lint-linux-x64-musl/1.14.0:
+    resolution: {integrity: sha512-/m30O5rYiYRoQw/3pfnaJe+fgckBE8iLKGw9DVZ9QGAhTHgxode/QNAWK11lenSPzWHhGe5g4C/9ow7M13Wdyg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -149,8 +149,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-win32-arm64-msvc/1.13.1:
-    resolution: {integrity: sha512-T5Xd/Q86xN9hS1zLgruxtkb9jsGHdYRN1qHG6ltYcLZPAAUP3tTjbsZhLSaGVSOmOGZt5wmmBOPSHzb2hxnXPw==}
+  /@node-rs/deno-lint-win32-arm64-msvc/1.14.0:
+    resolution: {integrity: sha512-t+QIZzGFDuOqoZBltEyuTUCsHJ8VBYJOXt1cyAZp9U9pziPzwfZzgmoLWIkcCjQtCPM2Ijy95blW/2nPRyeUiw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
@@ -158,8 +158,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-win32-ia32-msvc/1.13.1:
-    resolution: {integrity: sha512-rDCx8QBaEpEznu3x/dW4SskBSaTCaGSgR4K+YJXIihxDXWeMtyyt/ek+wB2zezIVVfaSxBkLkSBJIEdZqped7Q==}
+  /@node-rs/deno-lint-win32-ia32-msvc/1.14.0:
+    resolution: {integrity: sha512-kjT5cFi5aPpDmNTQMkLdACwyY/3l8N6id3fl2yqlxKVsQ/Dha6VtEjx7O3V7OBKeZ6z5orQpB3OazLKwB8/8Kw==}
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
@@ -167,8 +167,8 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint-win32-x64-msvc/1.13.1:
-    resolution: {integrity: sha512-EL5D4MGFYUjAz107fuD1OjsSjWKMvYkMB8PDmI5YbuoIyDGcq9lwCXkQbpN+T16EBHaWHlCnVPJE6YAwqJg1Vw==}
+  /@node-rs/deno-lint-win32-x64-msvc/1.14.0:
+    resolution: {integrity: sha512-OHJCjrj656OZ/98LhzbvM81xU5SQFcNDncKDfpJRlDAoJlWEdjvh6GPStcbG9ijhMqT+It/19B/Bg6+9mIMNBQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -176,27 +176,27 @@ packages:
     dev: true
     optional: true
 
-  /@node-rs/deno-lint/1.13.1:
-    resolution: {integrity: sha512-0fQ5+kAjK1QFX7iXjhLe0Sk+M2ES58q0Z1OxmDer8sF4o3m9RSP7oN1Qc9zcRkPm1DQO0z06Wr/10w7rHUQMnw==}
+  /@node-rs/deno-lint/1.14.0:
+    resolution: {integrity: sha512-Q0Hnk7TEXGviw3XAMgHatTlym1j1GBg0JkCIOZhqEZimm6JVTVDSWGtincbhFXwICZTLBDqITkna6udClEiSeA==}
     engines: {node: '>= 10'}
     hasBin: true
     dependencies:
       clipanion: 3.1.0
-      typanion: 3.8.0
+      typanion: 3.9.0
     optionalDependencies:
-      '@node-rs/deno-lint-android-arm-eabi': 1.13.1
-      '@node-rs/deno-lint-android-arm64': 1.13.1
-      '@node-rs/deno-lint-darwin-arm64': 1.13.1
-      '@node-rs/deno-lint-darwin-x64': 1.13.1
-      '@node-rs/deno-lint-freebsd-x64': 1.13.1
-      '@node-rs/deno-lint-linux-arm-gnueabihf': 1.13.1
-      '@node-rs/deno-lint-linux-arm64-gnu': 1.13.1
-      '@node-rs/deno-lint-linux-arm64-musl': 1.13.1
-      '@node-rs/deno-lint-linux-x64-gnu': 1.13.1
-      '@node-rs/deno-lint-linux-x64-musl': 1.13.1
-      '@node-rs/deno-lint-win32-arm64-msvc': 1.13.1
-      '@node-rs/deno-lint-win32-ia32-msvc': 1.13.1
-      '@node-rs/deno-lint-win32-x64-msvc': 1.13.1
+      '@node-rs/deno-lint-android-arm-eabi': 1.14.0
+      '@node-rs/deno-lint-android-arm64': 1.14.0
+      '@node-rs/deno-lint-darwin-arm64': 1.14.0
+      '@node-rs/deno-lint-darwin-x64': 1.14.0
+      '@node-rs/deno-lint-freebsd-x64': 1.14.0
+      '@node-rs/deno-lint-linux-arm-gnueabihf': 1.14.0
+      '@node-rs/deno-lint-linux-arm64-gnu': 1.14.0
+      '@node-rs/deno-lint-linux-arm64-musl': 1.14.0
+      '@node-rs/deno-lint-linux-x64-gnu': 1.14.0
+      '@node-rs/deno-lint-linux-x64-musl': 1.14.0
+      '@node-rs/deno-lint-win32-arm64-msvc': 1.14.0
+      '@node-rs/deno-lint-win32-ia32-msvc': 1.14.0
+      '@node-rs/deno-lint-win32-x64-msvc': 1.14.0
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
@@ -220,38 +220,38 @@ packages:
       fastq: 1.13.0
     dev: false
 
-  /@rollup/plugin-commonjs/22.0.0_rollup@2.74.1:
-    resolution: {integrity: sha512-Ktvf2j+bAO+30awhbYoCaXpBcyPmJbaEUYClQns/+6SNCYFURbvBiNbWgHITEsIgDDWCDUclWRKEuf8cwZCFoQ==}
+  /@rollup/plugin-commonjs/22.0.2_rollup@2.78.1:
+    resolution: {integrity: sha512-//NdP6iIwPbMTcazYsiBMbJW7gfmpHom33u1beiIoHDEM0Q9clvtQB1T0efvMqHeKsGohiHo97BCPCkBXdscwg==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
       rollup: ^2.68.0
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.74.1
+      '@rollup/pluginutils': 3.1.0_rollup@2.78.1
       commondir: 1.0.1
       estree-walker: 2.0.2
       glob: 7.2.0
       is-reference: 1.2.1
       magic-string: 0.25.9
       resolve: 1.22.0
-      rollup: 2.74.1
+      rollup: 2.78.1
     dev: true
 
-  /@rollup/plugin-node-resolve/13.3.0_rollup@2.74.1:
+  /@rollup/plugin-node-resolve/13.3.0_rollup@2.78.1:
     resolution: {integrity: sha512-Lus8rbUo1eEcnS4yTFKLZrVumLPY+YayBdWXgFSHYhTT2iJbMhoaaBL3xl5NCdeRytErGr8tZ0L71BMRmnlwSw==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
       rollup: ^2.42.0
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.74.1
+      '@rollup/pluginutils': 3.1.0_rollup@2.78.1
       '@types/resolve': 1.17.1
       deepmerge: 4.2.2
       is-builtin-module: 3.1.0
       is-module: 1.0.0
       resolve: 1.22.0
-      rollup: 2.74.1
+      rollup: 2.78.1
     dev: true
 
-  /@rollup/pluginutils/3.1.0_rollup@2.74.1:
+  /@rollup/pluginutils/3.1.0_rollup@2.78.1:
     resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -260,7 +260,7 @@ packages:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.3.1
-      rollup: 2.74.1
+      rollup: 2.78.1
     dev: true
 
   /@semantic-release/changelog/6.0.1:
@@ -370,8 +370,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /c8/7.11.3:
-    resolution: {integrity: sha512-6YBmsaNmqRm9OS3ZbIiL2EZgi1+Xc4O24jL3vMYGE6idixYuGdy76rIfIdltSKDj9DpLNrcXSonUTR1miBD0wA==}
+  /c8/7.12.0:
+    resolution: {integrity: sha512-CtgQrHOkyxr5koX1wEUmN/5cfDa2ckbHRA4Gy5LAL0zaCFtVWJS5++n+w4/sr2GWGerBxgTjpKeDclk/Qk6W/A==}
     engines: {node: '>=10.12.0'}
     hasBin: true
     dependencies:
@@ -397,7 +397,7 @@ packages:
   /clipanion/3.1.0:
     resolution: {integrity: sha512-v025Hz+IDQ15FpOyK8p02h5bFznMu6rLFsJSyOPR+7WrbSnZ1Ek6pblPukV7K5tC/dsWfncQPIrJ4iUy2PXkbw==}
     dependencies:
-      typanion: 3.8.0
+      typanion: 3.9.0
     dev: true
 
   /cliui/7.0.4:
@@ -420,11 +420,11 @@ packages:
     dev: true
 
   /commondir/1.0.1:
-    resolution: {integrity: sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs=}
+    resolution: {integrity: sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==}
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
   /convert-source-map/1.8.0:
@@ -554,7 +554,7 @@ packages:
     dev: true
 
   /fs.realpath/1.0.0:
-    resolution: {integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=}
+    resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
 
   /fsevents/2.3.2:
@@ -636,7 +636,7 @@ packages:
     dev: true
 
   /inflight/1.0.6:
-    resolution: {integrity: sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=}
+    resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
@@ -762,8 +762,8 @@ packages:
     engines: {node: '>= 8'}
     dev: false
 
-  /meriyah/4.2.1:
-    resolution: {integrity: sha512-Uv5sWsmjFNC6IszEmHo5bzJLL+kqjQ/VrEj9Agqsqtx7B6dcxHnHLew1ioJD19HNXrxrRZltPi+NVh12I8RLXA==}
+  /meriyah/4.3.0:
+    resolution: {integrity: sha512-YBm59F1syHtwN4/ULfU1cgAICONB+Z+sNV/96albrQbMKhWDHUivH7Pp+SOtjI0Gtx4/pEqeSOBBYaC+k5Bsdg==}
     engines: {node: '>=10.4.0'}
     dev: false
 
@@ -797,7 +797,7 @@ packages:
     dev: true
 
   /once/1.4.0:
-    resolution: {integrity: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=}
+    resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
     dependencies:
       wrappy: 1.0.2
     dev: true
@@ -834,7 +834,7 @@ packages:
     dev: true
 
   /path-is-absolute/1.0.1:
-    resolution: {integrity: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=}
+    resolution: {integrity: sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -860,8 +860,8 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: false
 
-  /recast/0.21.1:
-    resolution: {integrity: sha512-PF61BHLaOGF5oIKTpSrDM6Qfy2d7DIx5qblgqG+wjqHuFH97OgAqBYFIJwEuHTrM6pQGT17IJ8D0C/jVu/0tig==}
+  /recast/0.21.2:
+    resolution: {integrity: sha512-jUR1+NtaBQdKDqBJ+qxwMm5zR8aLSNh268EfgAbY+EP4wcNEWb6hZFhFeYjaYanwgDahx5t47CH8db7X2NfKdQ==}
     engines: {node: '>= 4'}
     dependencies:
       ast-types: 0.15.2
@@ -871,7 +871,7 @@ packages:
     dev: false
 
   /require-directory/2.1.1:
-    resolution: {integrity: sha1-jGStX9MNqxyXbiNE/+f3kqam30I=}
+    resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -896,8 +896,8 @@ packages:
       glob: 7.2.0
     dev: true
 
-  /rollup/2.74.1:
-    resolution: {integrity: sha512-K2zW7kV8Voua5eGkbnBtWYfMIhYhT9Pel2uhBk2WO5eMee161nPze/XRfvEQPFYz7KgrCCnmh2Wy0AMFLGGmMA==}
+  /rollup/2.78.1:
+    resolution: {integrity: sha512-VeeCgtGi4P+o9hIg+xz4qQpRl6R401LWEXBmxYKOV4zlF82lyhgh2hTZnheFUbANE8l2A41F458iwj2vEYaXJg==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -982,19 +982,19 @@ packages:
     engines: {node: '>=14.13'}
     dev: true
 
-  /tehanu-teru/1.0.0_tehanu@1.0.0:
+  /tehanu-teru/1.0.0_tehanu@1.0.1:
     resolution: {integrity: sha512-GzUu9HxSzxnj1JHkwe1FZBMoVgsDoR2f+w+fDJSKSGzw5bW0zkOeTSreS1amqVaEC0ePPJlb/lbS8Qppo3yZxA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
       tehanu: ^1.0.0
     dependencies:
-      tehanu: 1.0.0
+      tehanu: 1.0.1
       tiny-glob: 0.2.9
     dev: true
 
-  /tehanu/1.0.0:
-    resolution: {integrity: sha512-yY4IagW5h2YHWEicVYdQT5dd7Cz9gWIkXhfWenEnDvbUb0/y9RJ4al4wYbV8FfaJ050jw9nj2GS89WrkgOn2Sw==}
+  /tehanu/1.0.1:
+    resolution: {integrity: sha512-Ky9M6g/G/b+JI60CRvwLhMsxso8Ki3JQjY0m+p0uFX+3qozTE5EfanAeEp/6fKfeDmJp/8uA4zCCLYYH8zLhyA==}
     engines: {node: '>=12'}
     dev: true
 
@@ -1024,8 +1024,8 @@ packages:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: false
 
-  /typanion/3.8.0:
-    resolution: {integrity: sha512-r9rEMpvF4pnu2DuYuC//ctH7I83bdx+Psvi1GO68w4942OmFiH56+5YS9vsEe2+9ipFPOnBHW0Z2z5/nGz5jTg==}
+  /typanion/3.9.0:
+    resolution: {integrity: sha512-7yPk67IIquhKQcUXOBM27vDuGmZf6oJbEmzgVfDniHCkT6+z4JnKY85nKqbstoec8Kp7hD06TP3Kc98ij43PIg==}
     dev: true
 
   /universalify/2.0.0:
@@ -1060,7 +1060,7 @@ packages:
     dev: true
 
   /wrappy/1.0.2:
-    resolution: {integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=}
+    resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
 
   /y18n/5.0.8:
