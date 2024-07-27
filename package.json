@@ -42,37 +42,20 @@
   "c8": {
     "reporter": []
   },
-  "release": {
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      [
-        "@semantic-release/github",
-        {
-          "failComment": false
-        }
-      ],
-      "@semantic-release/git"
-    ]
-  },
   "dependencies": {
-    "fast-glob": "^3.2.12",
-    "meriyah": "^4.3.5",
-    "recast": "^0.22.0"
+    "fast-glob": "^3.3.2",
+    "meriyah": "^5.0.0",
+    "recast": "^0.23.9"
   },
   "devDependencies": {
-    "@node-rs/deno-lint": "^1.17.0",
-    "@rollup/plugin-commonjs": "^24.1.0",
-    "@rollup/plugin-node-resolve": "^15.0.2",
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
-    "c8": "^7.13.0",
-    "rollup": "^3.21.5",
+    "@node-rs/deno-lint": "^1.20.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "c8": "^10.1.2",
+    "rollup": "^4.19.0",
     "tehanu": "^1.0.1",
-    "tehanu-repo-coco": "^1.0.0",
-    "tehanu-teru": "^1.0.0"
+    "tehanu-repo-coco": "^1.0.1",
+    "tehanu-teru": "^1.0.1"
   },
   "keywords": [
     "requirejs",
