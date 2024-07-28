@@ -1,3 +1,5 @@
+# Changes
+
 ## [1.1.0](https://github.com/prantlf/requirejs-esm-converter/compare/v1.0.4...v1.1.0) (2024-07-27)
 
 ### Features
@@ -6,13 +8,11 @@
 
 ## [1.0.4](https://github.com/prantlf/requirejs-esm-converter/compare/v1.0.3...v1.0.4) (2023-05-05)
 
-
 ### Bug Fixes
 
 * Upgrade dependencies ([292b93d](https://github.com/prantlf/requirejs-esm-converter/commit/292b93d9201a10e6d8439a42df4f74197e63aa40))
 
 ## [1.0.3](https://github.com/prantlf/requirejs-esm-converter/compare/v1.0.2...v1.0.3) (2022-08-28)
-
 
 ### Bug Fixes
 
@@ -20,12 +20,9 @@
 
 ## [1.0.2](https://github.com/prantlf/requirejs-esm-converter/compare/v1.0.1...v1.0.2) (2022-05-09)
 
-
 ### Bug Fixes
 
 * Preserve quotes in import source ([f904fbb](https://github.com/prantlf/requirejs-esm-converter/commit/f904fbb0ac4202ae78c1f4b839d20515ce3d1249))
-
-
 
 ## [1.0.1](https://github.com/prantlf/requirejs-esm-converter/compare/v1.0.0...v1.0.1) (2022-05-08)
 
