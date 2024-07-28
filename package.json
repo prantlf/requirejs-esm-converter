@@ -34,7 +34,8 @@
   ],
   "scripts": {
     "prepare": "rollup -c",
-    "lint": "denolint",
+    "lint": "eslint *.js bin lib test",
+    "fix": "npm run lint -- --fix",
     "check": "teru-esm test/index.js",
     "cover": "c8 teru-esm test/index.js && c8 --no-clean bin/requirejs-to-esm.cjs -h && c8 --no-clean bin/requirejs-to-esm.cjs -V && cat test/input/amd-object.js | c8 --no-clean bin/requirejs-to-esm.cjs && cat test/input/esm.js | c8 --no-clean bin/requirejs-to-esm.cjs && c8 --no-clean bin/requirejs-to-esm.cjs -d test/input/amd-main.js && c8 --no-clean bin/requirejs-to-esm.cjs -p test/input/esm.js && c8 --no-clean bin/requirejs-to-esm.cjs test/input/invalid.txt && c8 --no-clean bin/requirejs-to-esm.cjs -X || c8 --no-clean bin/requirejs-to-esm.cjs -D -P \"none/*.js\" || c8 report -r text -r lcov",
     "test": "denolint && c8 teru-esm test/index.js && c8 --no-clean bin/requirejs-to-esm.cjs -h && c8 --no-clean bin/requirejs-to-esm.cjs -V && cat test/input/amd-object.js | c8 --no-clean bin/requirejs-to-esm.cjs && cat test/input/esm.js | c8 --no-clean bin/requirejs-to-esm.cjs && c8 --no-clean bin/requirejs-to-esm.cjs -d test/input/amd-main.js && c8 --no-clean bin/requirejs-to-esm.cjs -p test/input/esm.js && c8 --no-clean bin/requirejs-to-esm.cjs test/input/invalid.txt && c8 --no-clean bin/requirejs-to-esm.cjs -X || c8 --no-clean bin/requirejs-to-esm.cjs -D -P \"none/*.js\" || c8 report -r text -r lcov"
@@ -48,11 +49,13 @@
     "recast": "^0.23.9"
   },
   "devDependencies": {
-    "@node-rs/deno-lint": "^1.20.4",
+    "@eslint/js": "^9.8.0",
     "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "c8": "^10.1.2",
-    "rollup": "^4.19.0",
+    "eslint": "^9.8.0",
+    "globals": "^15.8.0",
+    "rollup": "^4.19.1",
     "tehanu": "^1.0.1",
     "tehanu-repo-coco": "^1.0.1",
     "tehanu-teru": "^1.0.1"
