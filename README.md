@@ -35,15 +35,19 @@ You can use BASH patterns for including and excluding files (only files).
 Patterns are case-sensitive and have to use slashes as directory separators.
 A pattern to exclude from processing starts with "!".
 
-### Options
-
-    -d|--[no-]dry-run  only log results, no writing to files
-    -p|--[no-]print    write to stdout instead of overwriting files
-    -V|--version       print version number
-    -h|--help          print usage instructions
-
 Files will overwritten with the converted output, if they are recognised
 as AMD modules and if the dry-run mode is not enabled.
+
+If named modules are detected, an import map will be printed on the console,
+if no file name for the import map was specified.
+
+### Options
+
+    -d|--[no-]dry-run       only log results, no writing to files
+    -p|--[no-]print         write to stdout instead of overwriting files
+    -m|--import-map <file>  write the import map with named modules
+    -V|--version            print version number
+    -h|--help               print usage instructions
 
 ### Examples
 
@@ -53,9 +57,9 @@ as AMD modules and if the dry-run mode is not enabled.
 
 ## API
 
-    convert(source: string): { code: string, warnings: string[] }
+    convert(source: string): { code: string, warnings: string[], name?: string }
 
-The function `convert` converts the `source` in AMD to `code` in ESM, optionally returning `warnings`. If the conversion is impossible because the input is not an [AMD] module, it will throw `ConvertError`. If the source file cannot be parsed, it will throw `SyntaxError`.
+The function `convert` converts the `source` in AMD to `code` in ESM, optionally returning `warnings`. If the AMD module is named, the name will be returned as `name`. If the conversion is impossible because the input is not an [AMD] module, it will throw `ConvertError`. If the source file cannot be parsed, it will throw `SyntaxError`.
 
 ```js
 import { convert } from 'requirejs-to-esm'

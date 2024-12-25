@@ -95,3 +95,11 @@ test('warns about ignored error handler', () => {
   const { warnings } = convert('require(["test"], function () {}, function () {})')
   deepStrictEqual(warnings, ['error handler ignored'])
 })
+
+test('extract module name', () => {
+  let name
+  ({ name } = convert('define("name", ["test"], function () {})'))
+  strictEqual(name, 'name');
+  ({ name } = convert('define("name", function () {})'))
+  strictEqual(name, 'name')
+})

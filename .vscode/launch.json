@@ -8,10 +8,10 @@
       "name": "bin",
       "type": "pwa-node",
       "request": "launch",
-      "program": "${workspaceFolder}/bin/requirejs-to-esm.js",
+      "program": "${workspaceFolder}/bin/requirejs-to-esm.cjs",
       "args": [
         "-d",
-        "test/input/amd-main.js"
+        "test/input/amd-named.js"
       ],
       "skipFiles": [
         "<node_internals>/**"
