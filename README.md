@@ -1,10 +1,5 @@
 # RequireJS ESM Converter
 
-[![Latest version](https://img.shields.io/npm/v/requirejs-esm-converter)
- ![Dependency status](https://img.shields.io/librariesio/release/npm/requirejs-esm-converter)
-](https://www.npmjs.com/package/requirejs-esm-converter)
-[![Code coverage](https://codecov.io/gh/prantlf/requirejs-esm-converter/branch/master/graph/badge.svg)](https://codecov.io/gh/prantlf/requirejs-esm-converter)
-
 Converts source [RequireJS] modules from [AMD] to [ESM] format.
 
 If you enabled usage of [ESM] modules in your [RequireJS] project (using [requirejs-babel7], [requirejs-esm] or [requirejs-esm-preprocessor], for example), you might want to convert all your code base to the [ESM] format to follow the same consistent coding standard and use the same set of tools to build, test and analyse your sources.

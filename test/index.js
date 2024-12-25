@@ -1,5 +1,5 @@
-import { strictEqual, deepStrictEqual } from 'assert'
-import { fileURLToPath } from 'url'
+import { strictEqual, deepStrictEqual } from 'node:assert'
+import { fileURLToPath } from 'node:url'
 import tehanu from 'tehanu'
 import { convert } from '../lib/index.js'
 

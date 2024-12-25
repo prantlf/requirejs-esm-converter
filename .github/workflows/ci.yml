@@ -1,12 +1,19 @@
-name: Test or Release
+name: Test and Release
 
 on:
-  - push
-  - pull_request
+  push:
+    branches:
+      - master
+    tags-ignore:
+      - '**'
+    paths-ignore:
+      - '**/*.md'
+      - LICENSE
+  pull_request:
 
 jobs:
-  test-or-release:
-    runs-on: macos-13
+  test-and-release:
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
     - uses: pnpm/action-setup@v4
@@ -19,7 +26,10 @@ jobs:
         cache: 'pnpm'
     - run: pnpm i --frozen-lockfile --no-verify-store-integrity
     - run: npm run cover
-    - uses: codecov/codecov-action@v3
+    - uses: codecov/codecov-action@v4
+      if: ${{ github.ref_name == 'master' }}
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
     - uses: prantlf/publish-release-action@v1
       with:
         no-archives: true
