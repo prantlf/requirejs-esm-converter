@@ -1,5 +1,12 @@
 # Changes
 
+## [1.2.0](https://github.com/prantlf/requirejs-esm-converter/compare/v1.1.0...v1.2.0) (2024-12-25)
+
+### Features
+
+* Upgrade dependencies ([7e05377](https://github.com/prantlf/requirejs-esm-converter/commit/7e053778ab86c3b7484d5eab6749da32f7b6f893))
+* Support named modules and write import map ([9268a87](https://github.com/prantlf/requirejs-esm-converter/commit/9268a8767b2632653583359c76afa5da123527bc))
+
 ## [1.1.0](https://github.com/prantlf/requirejs-esm-converter/compare/v1.0.4...v1.1.0) (2024-07-27)
 
 ### Features
