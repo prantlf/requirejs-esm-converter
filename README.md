@@ -86,7 +86,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## License
 
-Copyright (c) 2022-2024 Ferdinand Prantl
+Copyright (c) 2022-2025 Ferdinand Prantl
 
 Licensed under the MIT license.
 
