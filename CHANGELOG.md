@@ -1,5 +1,11 @@
 # Changes
 
+## [1.3.0](https://github.com/prantlf/requirejs-esm-converter/compare/v1.2.0...v1.3.0) (2025-05-14)
+
+### Features
+
+* Upgrade dependencies ([615c812](https://github.com/prantlf/requirejs-esm-converter/commit/615c8125ea174ec96a997c609fec53a27b197588))
+
 ## [1.2.0](https://github.com/prantlf/requirejs-esm-converter/compare/v1.1.0...v1.2.0) (2024-12-25)
 
 ### Features
