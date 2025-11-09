@@ -1,5 +1,15 @@
 # Changes
 
+## [2.0.0](https://github.com/prantlf/requirejs-esm-converter/compare/v1.3.0...v2.0.0) (2025-11-09)
+
+### Features
+
+* Remove "use strict" from the output ESM source ([954cd92](https://github.com/prantlf/requirejs-esm-converter/commit/954cd92cadf265e30c1ee5a09223ea56a3c892bd))
+
+### BREAKING CHANGES
+
+Removing of the `"use strict"` statement was documented, but not implemented. Fixing it now could be seen as a breaking change.
+
 ## [1.3.0](https://github.com/prantlf/requirejs-esm-converter/compare/v1.2.0...v1.3.0) (2025-05-14)
 
 ### Features
