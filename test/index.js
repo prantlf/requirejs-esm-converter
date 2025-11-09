@@ -41,6 +41,7 @@ export default {};`
   {
     title: 'converts module with one dependency, statement and export',
     input: `define(["test"], function (test) {
+  "use strict";
   console.log(test)
   return 42
 })`,

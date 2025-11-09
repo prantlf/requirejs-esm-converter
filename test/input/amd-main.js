@@ -1,1 +1,1 @@
-require(['test'], function () {}, function () {})
+require(['test'], function () {"use strict"}, function () {})
